@@ -1,0 +1,19 @@
+#titulo-portafolio {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.galeria-portafolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.galeria-portafolio img {
+    width: 100%;
+}
+
+.galeria-portafolio .img-1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
